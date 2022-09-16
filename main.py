@@ -1,3 +1,5 @@
+# Databricks notebook source
+
 import package2.helper2 as h
 from package1.helper1 import ExampleClass
 
@@ -13,10 +15,10 @@ def print_hi(name):
 
 
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-    print(h.add_one(1))
-    ex = ExampleClass()
-    print(ex.add_two(1))
+# if __name__ == '__main__':
+print_hi('PyCharm')
+print(h.add_one(1))
+ex = ExampleClass()
+print(ex.add_two(1))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
